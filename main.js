@@ -62,7 +62,7 @@ app.post('/mahasiswa/tambah',function(req, res){
   });
 });
 
-//jalankan server
+//jalankan server dengan port 3561
 app.listen(3561, () => {
   console.log('Server sedang berjalan ... ');
 });
